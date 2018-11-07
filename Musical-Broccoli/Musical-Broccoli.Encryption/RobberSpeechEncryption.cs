@@ -11,7 +11,7 @@ namespace Musical_Broccoli.Encryption
 
         public RobberSpeechEncryption()
         {
-            var consonantsString = "bcdfghjklmnpqrstvwzx";
+            const string consonantsString = "bcdfghjklmnpqrstvwzx";
             capitalConsonantLetters = consonantsString.ToUpper().ToCharArray();
             minorConsonantLetters = consonantsString.ToCharArray();
         }
